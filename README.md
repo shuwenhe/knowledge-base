@@ -1,4 +1,4 @@
-# Knowledge
+# Knowledge base
 # 项目描述：
 ## 大模型知识问答系统
 
