@@ -30,7 +30,7 @@ else:
         results = db.similarity_search(query, k=3)
         print(f"\n🔍 对查询 '{query}' 的前3个最相似结果：")
         for i, doc in enumerate(results):
-            print(f"{i+1}. {doc.page_content[:200]}...")  # 只显示前200字符
+            print(f"{i+1}. {doc.page_content[:300]}...")  # 只显示前200字符
         
     except Exception as e:
         print(f"❌ 加载失败: {e}")
