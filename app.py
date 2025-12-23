@@ -31,7 +31,7 @@ with st.sidebar:
 def load_knowledge_base():
     try:
         embeddings = OllamaEmbeddings(model="bge-m3")
-        index_path = "./faiss_jinlei_index"
+        index_path = "./faiss_index"
         
         if os.path.exists(index_path):
             vector_store = FAISS.load_local(
